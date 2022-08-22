@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 34px 48px 105px 40px;
+  align-items: center;
+}
+
+.link {
+  margin-right: 47px;
+  font-family: var(--barlow);
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: -0.13px;
+  line-height: 1.4;
+}
+
+.btn {
+  border-radius: 28px;
+  background: #fff;
+  border-style: none;
+  padding: 16px 31px;
+  font-family: var(--fraunces);
+  font-weight: 700;
+  font-size: 0.938rem;
+  line-height: 1.7;
+  text-transform: uppercase;
+  color: var(--very-dark-blue-color);
+  letter-spacing: -0.11px;
+}
+
+.btn:hover {
+ color: #fff;
+ background-color: #78CEF5;
+ cursor: pointer;
+
+}
+
+.title {
+  text-transform: uppercase;
+}

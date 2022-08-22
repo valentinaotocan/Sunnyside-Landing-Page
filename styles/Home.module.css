@@ -1,1 +1,21 @@
+.header {
+  background: url("../public/assets/images/image-header.jpg") no-repeat center center/cover;
+  min-height: 800px;
+  color: white;
+}
 
+.title {
+  text-align: center;
+}
+
+.arrow_down {
+  display: flex;
+  justify-content: center;
+  animation: MoveUpDown 1.5s cubic-bezier(.17,.67,.83,.67) infinite;
+ 
+}
+
+@keyframes MoveUpDown {
+  0% { transform: translateY(-30px); }
+  100% { transform: translateY(95px); }
+}
