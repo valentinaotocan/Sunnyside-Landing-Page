@@ -28,7 +28,7 @@
   font-size: 2.5rem;
   line-height: 1.2;
   letter-spacing: -0.29px;
-  color: #24303e;
+  color: var(--very-dark-blue-color);
 }
 
 .paragraph {
@@ -36,13 +36,13 @@
   font-size: 1.125rem;
   line-height: 1.7;
   letter-spacing: -0.13px;
-  color: #808397;
+  color: var(--gray-color);
   margin: 0;
   padding-bottom: 40px;
 }
 
 .link_1 {
-  color: #24303e;
+  color: var(--very-dark-blue-color);
   text-transform: uppercase;
   font-family: var(--fraunces);
   font-weight: 900;
