@@ -1,0 +1,64 @@
+.section {
+  background-color: #f2f2f2;
+}
+
+.testimonials {
+  padding: 160px 8.5%;
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: var(--fraunces);
+  font-weight: 900;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #a7aaad;
+  padding-bottom: 81px;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+.comment {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  letter-spacing: -0.13px;
+  color: #5b636d;
+  padding-top: 58px;
+  padding-bottom: 69px;
+}
+
+.client_name {
+  font-family: var(--fraunces);
+  font-weight: 900;
+  font-size: 1.125rem;
+  line-height: 1.2;
+  letter-spacing: -0.13px;
+  color: #24303e;
+  padding-bottom: 9px;
+}
+
+.profession {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.8;
+  letter-spacing: -0.1px;
+  color: #a7aaad;
+}

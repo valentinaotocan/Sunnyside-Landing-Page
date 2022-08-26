@@ -1,10 +1,10 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Navbar from '../components/navbar/Navbar'
-import Transform_audience from '../components/transform-audience/Transform_audience'
-import Design_photography from '../components/design-photography/Design_photography.jsx'
-
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import Navbar from "../components/navbar/Navbar";
+import Transform_audience from "../components/transform-audience/Transform_audience";
+import Design_photography from "../components/design-photography/Design_photography.jsx";
+import Testimonials from "../components/testimonials/Testimonials";
 
 export default function Home() {
   return (
@@ -23,6 +23,7 @@ export default function Home() {
       </div>
       <Transform_audience />
       <Design_photography />
+      <Testimonials />
     </div>
   );
 }
