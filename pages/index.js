@@ -5,6 +5,7 @@ import Navbar from "../components/navbar/Navbar";
 import Transform_audience from "../components/transform-audience/Transform_audience";
 import Design_photography from "../components/design-photography/Design_photography.jsx";
 import Testimonials from "../components/testimonials/Testimonials";
+import Gallery from '../components/gallery/Gallery'
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
       <Transform_audience />
       <Design_photography />
       <Testimonials />
+      <Gallery />
     </div>
   );
 }
