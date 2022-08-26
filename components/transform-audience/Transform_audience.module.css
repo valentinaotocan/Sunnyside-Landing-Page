@@ -29,6 +29,7 @@
   line-height: 1.2;
   letter-spacing: -0.29px;
   color: var(--very-dark-blue-color);
+  padding-bottom: 32px;
 }
 
 .paragraph {
