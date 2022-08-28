@@ -90,3 +90,9 @@
   right: 0;
 }
 
+/* responsive */
+@media (max-width: 1024px) {
+  .section {
+    height: 500px;
+  }
+}

@@ -7,3 +7,10 @@
 .image_container {
   position: relative;
 }
+
+/* responsive */
+@media (max-width: 1024px) {
+  .gallery {
+    height: 347px;
+  }
+}

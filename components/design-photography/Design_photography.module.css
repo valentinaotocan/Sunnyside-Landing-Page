@@ -65,3 +65,10 @@
   color: #19536C;
 }
 
+/* responsive */
+@media (max-width: 1024px) {
+  .section {
+    height: 500px;
+  }
+}
+

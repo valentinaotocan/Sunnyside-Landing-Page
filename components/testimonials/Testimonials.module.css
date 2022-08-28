@@ -62,3 +62,11 @@
   letter-spacing: -0.1px;
   color: #a7aaad;
 }
+
+/* responsive */
+@media (max-width: 1024px) {
+ .testimonials {
+  padding-top: 110px;
+  padding-bottom: 110px
+ } 
+}
