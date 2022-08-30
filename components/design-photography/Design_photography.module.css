@@ -71,4 +71,25 @@
     height: 500px;
   }
 }
+@media (max-width: 768px) {
+  .section {
+    height: 1200px;
+    flex-direction: column;
+  }
+  .design {
+    width: 100%;
+  }
+  .photography {
+    width: 100%;
+  }
+}
+@media (max-width: 425px) {
+ .section {
+  height: 1000px;
+ }
+ .text {
+  padding-left: 24px;
+  padding-right: 24px;
+ }
+}
 

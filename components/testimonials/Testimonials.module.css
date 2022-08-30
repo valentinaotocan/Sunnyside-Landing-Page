@@ -10,7 +10,7 @@
   text-transform: uppercase;
   font-family: var(--fraunces);
   font-weight: 900;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.25;
   text-align: center;
   letter-spacing: 5px;
@@ -69,4 +69,26 @@
   padding-top: 110px;
   padding-bottom: 110px
  } 
+}
+
+@media (max-width: 768px) {
+  .testimonials {
+    padding: 90px 24px;
+  }
+  .title {
+    padding-bottom: 64px;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .card {
+    padding-bottom: 64px;
+  }
+  .card:last-child {
+    padding-bottom: 0px;
+  }
+  .comment {
+    max-width: 450px;
+    padding: 32px 24px;
+  }
 }

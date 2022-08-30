@@ -14,3 +14,16 @@
     height: 347px;
   }
 }
+
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+    height: 550px;
+  }
+}
+
+@media (max-width: 425px) {
+  .gallery {
+    height: 376px;
+  }
+}

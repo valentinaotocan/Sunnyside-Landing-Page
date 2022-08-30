@@ -34,12 +34,14 @@ export default function Testimonials() {
         <h2 className={styles.title}>Client testimonials</h2>
         <div className={styles.cards}>
           {clients.map((client) => (
-            <div key={client.id} className={styles.card}>
+            <div
+              key={client.id}
+              className={styles.card}>
               <Image
                 src={`/assets/images/${client.image}`}
                 width="72px"
                 height="72px"
-                alt=''
+                alt=""
                 className={styles.image}
               />
               <p className={styles.comment}>{client.comment}</p>

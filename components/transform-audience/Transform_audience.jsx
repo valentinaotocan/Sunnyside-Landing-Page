@@ -1,38 +1,37 @@
 import Link from "next/link";
-import Image from 'next/image'
-import styles from './Transform_audience.module.css'
+import Image from "next/image";
+import styles from "./Transform_audience.module.css";
 
-export default function Transform() {
+export default function Transform_audience() {
   return (
     <>
-      <section className={styles.section}>
-        <div className={styles.text}>
-          <div className={styles.text_width}>
-            <h2 className={styles.heading}>Transform your brand</h2>
-            <p className={styles.paragraph}>
-              We are a full-service creative agency specializing in helping
-              brands grow fast. Engage your clients through compelling visuals
-              that do most of the marketing for you.
-            </p>
-            <Link href="#">
-              <a className={styles.link_1}>Learn more</a>
-            </Link>
-          </div>
+    <section className={styles.section_transform}>
+      <div className={styles.text}>
+        <div className={styles.text_width}>
+          <h2 className={styles.heading}>Transform your brand</h2>
+          <p className={styles.paragraph}>
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <Link href="#">
+            <a className={styles.link_1}>Learn more</a>
+          </Link>
         </div>
+      </div>
+      <div className={styles.image_wrapper}>
+        <Image
+          src="/assets/images/image-transform.jpg"
+          layout="fill"
+          objectFit="cover"
+          objectPosition="center 15%"
+          alt="Egg"
+          priority
+        />
+      </div>
+    </section>
 
-        <div className={styles.image_wrapper}>
-          <Image
-            src="/assets/images/image-transform.jpg"
-            layout="fill"
-            objectFit="cover"
-            objectPosition="center 15%"
-            alt="Egg"
-            priority
-          />
-        </div>
-      </section>
-
-      <section className={styles.section}>
+    <section className={styles.section_audience}>
         <div className={styles.image_wrapper}>
           <Image
             src="/assets/images/image-stand-out.jpg"
@@ -40,8 +39,7 @@ export default function Transform() {
             objectFit="cover"
             alt="Stand-out"
           />
-        </div>
-
+        </div>        
         <div className={styles.text}>
           <div className={styles.text_width}>
             <h2 className={styles.heading}>Stand out to the right audience</h2>
@@ -56,6 +54,6 @@ export default function Transform() {
           </div>
         </div>
       </section>
-    </>
+     </> 
   );
 }

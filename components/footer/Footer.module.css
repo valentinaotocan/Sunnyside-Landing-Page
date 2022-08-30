@@ -32,3 +32,10 @@
 .icon:hover {
   fill: white;
 }
+
+/* responsive */
+@media(max-width: 768px) {
+  .footer {
+    padding: 64px 24px 80px;
+  }
+}
