@@ -13,7 +13,7 @@ export default function Navbar() {
       <div className={styles.logo}>
         <Link href="/">
           <a>
-            <Image src="/logo.svg" alt="Logo" width={170} height={33} className={styles.logo} />
+            <Image src="/assets/logo.svg" alt="Logo" width={170} height={33} className={styles.logo} />
           </a>
         </Link>
       </div>
