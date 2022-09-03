@@ -39,3 +39,8 @@
     padding: 64px 24px 80px;
   }
 }
+@media(max-width: 425px) {
+  .marginRight {
+    margin-right: 40px;
+  }
+}

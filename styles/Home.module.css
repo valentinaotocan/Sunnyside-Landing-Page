@@ -44,3 +44,9 @@
     min-height: 538px;
   }
 }
+
+@media (max-width: 320px) {
+  .title {
+    font-size: 1.8rem;
+  }
+}

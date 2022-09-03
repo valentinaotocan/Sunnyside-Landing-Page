@@ -15,7 +15,6 @@
 html,
 body {
   font-family: var(--barlow);
-  overflow-x: hidden;
 }
 
 a {
