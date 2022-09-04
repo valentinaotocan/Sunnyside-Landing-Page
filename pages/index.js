@@ -2,8 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/navbar/Navbar";
-import Transform_audience from "../components/transform-audience/Transform_audience";
-import Design_photography from "../components/design-photography/Design_photography.jsx";
+import TransformAudience from "../components/transform-audience/TransformAudience";
+import DesignPhotography from "../components/design-photography/DesignPhotography.jsx";
 import Testimonials from "../components/testimonials/Testimonials";
 import Gallery from '../components/gallery/Gallery';
 import Footer from '../components/footer/Footer';
@@ -26,8 +26,8 @@ export default function Home() {
           />
         </div>
       </div>
-      <Transform_audience />
-      <Design_photography />
+      <TransformAudience />
+      <DesignPhotography />
       <Testimonials />
       <Gallery />
       <Footer />

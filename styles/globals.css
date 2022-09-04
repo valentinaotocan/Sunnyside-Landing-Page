@@ -3,7 +3,7 @@
 :root {
   /* font-family */
   --barlow: "Barlow", sans-serif;
-  --fraunces: "Fraunces", serif;
+  --fraunces: "Fraunces", Georgia, serif;
 
   /* color */
   --very-dark-blue-color: #24303E;

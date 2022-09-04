@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import styles from "./Transform_audience.module.css";
+import styles from "./TransformAudience.module.css";
 
 export default function Transform_audience() {
   return (

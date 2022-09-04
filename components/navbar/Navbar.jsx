@@ -1,22 +1,24 @@
-import Image from "next/image";
 import Link from "next/link";
 import styles from "./Navbar.module.css";
 import { useState } from "react";
+import Logo from '../Logo'
 export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   const handleNav = () => {
     setNavbarOpen((prevOpen) => !prevOpen);
   };
+
   return (
     <div className={styles.navbar}>
-      <div className={styles.logo}>
         <Link href="/">
           <a>
-            <Image src="/assets/logo.svg" alt="Logo" width={170} height={33} className={styles.logo} />
+            <Logo width={177} height={33} fill='#ffffff'
+              className={styles.logo}
+            />
           </a>
         </Link>
-      </div>
+      
 
       <div className={styles.desktop}>
         <Link href="#">

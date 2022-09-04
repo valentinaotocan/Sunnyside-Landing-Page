@@ -1,4 +1,4 @@
-import styles from "./Design_photography.module.css";
+import styles from "./DesignPhotography.module.css";
 export default function Design_photography() {
   return (
     <section className={styles.section}>
