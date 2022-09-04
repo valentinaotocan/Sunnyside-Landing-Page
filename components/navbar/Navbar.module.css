@@ -46,8 +46,8 @@
   position: absolute;
   background: #fffcf8;
   left: 40px;
+  right: 40px;
   height: 400px;
-  width: 89%;
   clip-path: polygon(95% 8%, 100% 0, 100% 100%, 0 100%, 0 8%);
   top: 82px;
   display: flex;
@@ -106,6 +106,7 @@
     }
     .mobile {
       left: 24px;
+      right: 24px;
       height: 329px;
       clip-path: polygon(93% 8%, 100% 0, 100% 100%, 0 100%, 0 8%);
     }
