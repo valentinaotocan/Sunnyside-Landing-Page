@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "./Navbar.module.css";
 import { useState } from "react";
-import Logo from '../Logo'
+import Logo from "../Logo";
 export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
@@ -11,14 +11,16 @@ export default function Navbar() {
 
   return (
     <div className={styles.navbar}>
-        <Link href="/">
-          <a>
-            <Logo width={177} height={33} fill='#ffffff'
-              className={styles.logo}
-            />
-          </a>
-        </Link>
-      
+      <Link href="/">
+        <a>
+          <Logo
+            width={177}
+            height={33}
+            fill="#ffffff"
+            className={styles.logo}
+          />
+        </a>
+      </Link>
 
       <div className={styles.desktop}>
         <Link href="#">
