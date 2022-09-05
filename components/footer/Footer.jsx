@@ -5,7 +5,7 @@ import Logo from "../Logo";
 export default function Footer() {
   return (
     <div className={styles.footer}>
-      <Logo width={124} height={22} fill="currentColor" />
+      <Logo width={170} height={33} fill="currentColor" />
 
       <div className={styles.links}>
         <Link href="#">

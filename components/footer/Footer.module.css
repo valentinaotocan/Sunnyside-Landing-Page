@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #458D7E;
 }
 
 .links {
@@ -13,7 +14,6 @@
   font-weight: 600;
   font-size: 1.125rem;
   line-height: 1.4;
-  color: #458D7E;
   letter-spacing: -0.13px;
 }
 
